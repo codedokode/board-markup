@@ -1,0 +1,91 @@
+html { margin: 0; padding: 0; }
+html { font: 85%/1.4 Arial, sans-serif;  }
+body { margin: 0; padding: 0 0 5px; }
+code, pre { font-size: 100%; line-height: 1.2; background: #f0f0f0;
+    font-family: "Lucida Console", "Andale Mono", monospace; color: #333; }
+code { background: #f0f0f0; padding: 2px 4px; }
+pre { padding: 6px 4px; }
+pre code { padding: 0; }
+.clearfix:after, .row:after, .row-buttons:after { content: ""; display: table; clear: both; }
+
+.l-header { height: 78px; background: #f0f0f0; padding: 1px 0; border-bottom: 1px solid #999;
+    background: #333 url("i/bg-1.jpg") repeat 50% 50%; position: relative; z-index: 0; }
+    .l-header .overlay { background: rgba(0, 0, 0, 0.4); z-index: -1; position: absolute;
+        left: 0; right: 0; top: 0; bottom: 0; }
+    .l-header .wrap { max-width: 50em; margin: 0 auto; padding: 0 20px; }
+
+h1 { font: normal normal 32px/1 "Times New Roman", serif; 
+        margin: 0; color: #666; padding: 0; }
+.l-header h1 { margin-top: 23px; color: #fff; }
+
+h2 { font: normal bold 24px/1.2 "Times New Roman", serif; color: #333; margin: -5px 10px 4px -10px; 
+    float: left; background: #fff; padding: 4px 8px; border-radius: 0 0 6px 0;  }
+p { margin: 0 0 1em; }
+.page-threads-list { max-width: 50em; margin: 0 auto; padding: 0 20px; position: relative; }
+
+.b-threads-list {  }
+.b-thread { margin: 10px 0 40px; }
+.b-post { padding: 5px 0px;  }
+.b-post .post-number { float: right; padding: 4px 6px; color: #666; font-size: 85%; line-height: 1; }
+.b-post h2 + p { clear: left; }
+
+.b-post-last-comments { padding: 5px 0 5px 120px; }
+.b-post-last-comments .b-comment { font-size: 90%; line-height: 1.4; 
+        padding-top: 8px; color: #333;}
+.b-comment .post-number { float: right; padding: 2px 6px; color: #888; font-size: 85%; display: none; }
+
+.b-post-info-line { color: #999; text-align: center; font-size: 85%; }
+.b-post-actions button { margin: 0 0 0 15px; float: right;  }
+.button-action { background: #f0f0f0; 
+    border: 1px solid #aaa; border-radius: 3px; padding: 3px 10px; cursor: pointer; }
+.button-action:hover { background-color: #e0e0ff; }
+
+.b-pager { padding: 10px 0; }
+.b-pager .current { padding: 4px 15px; font-weight: bold; }
+.b-pager .hellip { padding: 4px 20px; }
+.b-pager .label { color: #666; padding-right: 10px; }
+.b-pager a { padding: 4px 15px; background: #999; border-radius: 6px; font-weight: bold;
+color: #fff; text-decoration: none; }
+.b-pager a:hover { background: #99f; }
+
+.b-footer { height: 40px; }
+
+.hide-text { display: none; }
+
+.b-top-actions { position: absolute; right: 100%; width: 200px; top: 3px; }
+.b-top-actions button, .b-top-actions a.button { float: right; }
+
+a.button-action { line-height: 1.5;  text-decoration: none; color: #000; }
+
+.l-header-clean { padding: 23px 20px 5px; margin: 0 auto; max-width: 50em; }
+.page-add-form { padding: 0 20px; margin: 0 auto; max-width: 50em; }
+
+
+.b-add-thread-form { padding-left: 120px; padding-top: 30px;  padding-bottom: 30px; }
+
+.row { margin: 0 0 8px; }
+.row-label { float: left; margin-left: -120px; width: 110px; margin-top: 4px; }
+.row-hint { font-size: 12px; line-height: 1.2; text-align: right; color: #999; }
+.row-comment { float: right; width: 140px; margin-right: -150px; font-size: 12px; 
+    line-height: 1.4; color: #333; }
+.row-buttons { margin-top: 18px; }    
+.row-buttons button, .row-buttons input { float: right; }
+.row-buttons a { margin-top: 6px; }
+.row-buttons .button-left { float: left; }
+.button-main { padding: 5px 15px; }
+
+.b-big-form input[type="text"] { font-size: 18px; line-height: 1.2; padding: 3px; 
+    border: 1px solid #999; margin: 0; }
+.input-wide, .textarea-wide { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; 
+    box-sizing: border-box; width: 100%; display: block; }
+.textarea-large { min-height: 42em; } 
+.b-big-form textarea { font: 14px/1.2 monospace; padding: 3px; 
+    border: 1px solid #999; margin: 0; position: relative; }
+
+.row-error { display: block;  background: #ffe0d0; color: #800;
+padding: 5px 10px; border: 1px solid #c66; border-width: 1px 1px 0 1px; }
+
+.page-thread { margin: 0 auto; max-width: 50em; padding: 0 20px; }
+.page-thread .b-post { border-bottom: 1px solid #ccc; margin-top: 15px; }
+.page-thread .b-post.last-post { border-bottom: none; }
+.page-thread .b-post-actions { margin-top: 30px; }

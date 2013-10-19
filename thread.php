@@ -136,9 +136,11 @@ echo &quot;Работа скрипта закончена&quot;;</code></pre>
                 <p>Я ненавижу весь мир и тебя лично</p>        
             </div>
 
-            <div class="b-post-actions clearfix">
-                <button class="button-action button-reply">Добавить комментарий</button>
-                <a href="board.php" class="button-left back-link">← вернуться на главную</a>
+            <div class="b-thread-actions clearfix">
+                <div class="aligned-right">                    
+                    <a href="board.php" class="button button-left back-link">← вернуться на главную</a>
+                    <a href="" class="button button-action button-reply">Добавить комментарий</a>
+                </div>
             </div>
         </div>
     </div>

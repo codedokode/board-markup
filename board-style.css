@@ -35,9 +35,10 @@ p { margin: 0 0 1em; }
 .b-comment .post-number { float: right; padding: 2px 6px; color: #888; font-size: 85%; display: none; }
 
 .b-post-info-line { color: #999; text-align: center; font-size: 85%; }
-.b-post-actions button { margin: 0 0 0 15px; float: right;  }
+.b-post-actions button, .b-post-actions a { margin: 0 0 0 15px; float: right;  }
 .button-action { background: #f0f0f0; 
     border: 1px solid #aaa; border-radius: 3px; padding: 3px 10px; cursor: pointer; }
+a.button-action { font-size: 85%; }
 .button-action:hover { background-color: #e0e0ff; }
 
 .b-pager { padding: 10px 0; }
@@ -89,3 +90,7 @@ padding: 5px 10px; border: 1px solid #c66; border-width: 1px 1px 0 1px; }
 .page-thread .b-post { border-bottom: 1px solid #ccc; margin-top: 15px; }
 .page-thread .b-post.last-post { border-bottom: none; }
 .page-thread .b-post-actions { margin-top: 30px; }
+
+.b-thread-actions { text-align: right; }
+.aligned-right { float: right; }
+.aligned-right .button { margin-left: 20px; }

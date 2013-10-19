@@ -80,8 +80,8 @@ echo &quot;Работа скрипта закончена&quot;;</code></pre>
             </div>
 
             <div class="b-post-actions clearfix">
-                <button class="button-action button-reply">Добавить комментарий</button>
-                <button class="button-action button-show-thread">Перейти в тред</button>
+                <a href="" class="button-action button-reply">Добавить комментарий</a>
+                <a href="" class="button-action button-show-thread">Перейти в тред</a>
             </div>
         </div>
         <div class="b-thread">
@@ -136,8 +136,8 @@ echo &quot;Работа скрипта закончена&quot;;</code></pre>
             </div>
 
             <div class="b-post-actions clearfix">
-                <button class="button-action button-reply">Добавить комментарий</button>
-                <button class="button-action button-show-thread">Перейти в тред</button>
+                <a href="" class="button-action button-reply">Добавить комментарий</a>
+                <a href="" class="button-action button-show-thread">Перейти в тред</a>
             </div>
         </div>
         <div class="b-thread">
@@ -192,65 +192,8 @@ echo &quot;Работа скрипта закончена&quot;;</code></pre>
             </div>
 
             <div class="b-post-actions clearfix">
-                <button class="button-action button-reply">Добавить комментарий</button>
-                <button class="button-action button-show-thread">Перейти в тред</button>
-            </div>
-        </div>
-
-        <div class="b-thread">
-            <div class="b-post first-post">            
-                <div class="post-number">#36765</div>
-                <h2 class="thread-topic">Не работает скрипт</h2>                
-
-                <p>Добрый день!</p>
-
-                <p>Никак не получается составить регулярное выражение.</p>
-
-                <p>Есть html: &lt;img alt=&quot;&quot; src=&quot;images/ads_200x200.png&quot; style=&quot;width: 250px; height: 250px; float:left; border-width: 1px; border-style: solid&quot;&gt; <br />
-                нужно найти все картинки с именем ads_200x200.png, удалить все атрибуты кроме src, и оставить float, если он указан в стилях. </p>
-
-                <p>Т.е. если флоат не указан, то результат должен быть такой:<br />
-                &lt;img src=&quot;images/ads_200x200.png&quot;&gt; </p>
-                <div class="hide-text">
-                <p>А если указан, то такой:<br />
-                &lt;img src=&quot;images/ads_200x200.png&quot; style=&quot;float:left&quot;&gt; </p>
-
-                <p>Пытаюсь разобраться, но ничего не выходит :( </p>
-
-                <p>Спасибо!</p>
-                </div>
-            </div>
-
-            <div class="b-post-info-line">
-                Пропущено 13 комментариев
-            </div>
-
-            <div class="b-post-last-comments">
-                <div class="b-comment">
-                    <div class="post-number">#36871</div>
-                    <p>XPath бы вам помог.</p>
-                </div>
-
-                <div class="b-comment">
-                    <div class="post-number">#36598</div>
-                    <p>если вы у вас есть проблема и вы пытаетесь решить ее с помощью регулярок - у вас две проблемы. 
-                        Регулярки помогают при разборе html только в ограниченном количестве простых случаев - 
-                        когда достаточно работать с разметкой только как с текстом… </p>
-                        <div class="hide-text"><p> В вашем случае необходимо 
-                        скормить код xml парсеру и преобразовывать уже получившийся документ (с помощью xslt, 
-                        например). Все остальное - извращение.</p></div>
-                </div>
-
-                <div class="b-comment">
-                    <div class="post-number">#36601</div>
-                    <p>ужастно, разбор HTML на таком уровне однозначно и просто решается с помощью XML парсеров и,
-                     в дальнейшем, инструметов работы с XML.</p>
-                </div>
-            </div>
-
-            <div class="b-post-actions clearfix">
-                <button class="button-action button-reply">Добавить комментарий</button>
-                <button class="button-action button-show-thread">Перейти в тред</button>
+                <a href="" class="button-action button-reply">Добавить комментарий</a>
+                <a href="" class="button-action button-show-thread">Перейти в тред</a>
             </div>
         </div>
 
@@ -306,8 +249,8 @@ echo &quot;Работа скрипта закончена&quot;;</code></pre>
             </div>
 
             <div class="b-post-actions clearfix">
-                <button class="button-action button-reply">Добавить комментарий</button>
-                <button class="button-action button-show-thread">Перейти в тред</button>
+                <a href="" class="button-action button-reply">Добавить комментарий</a>
+                <a href="" class="button-action button-show-thread">Перейти в тред</a>
             </div>
         </div>
 
@@ -363,8 +306,65 @@ echo &quot;Работа скрипта закончена&quot;;</code></pre>
             </div>
 
             <div class="b-post-actions clearfix">
-                <button class="button-action button-reply">Добавить комментарий</button>
-                <button class="button-action button-show-thread">Перейти в тред</button>
+                <a href="" class="button-action button-reply">Добавить комментарий</a>
+                <a href="" class="button-action button-show-thread">Перейти в тред</a>
+            </div>
+        </div>
+
+        <div class="b-thread">
+            <div class="b-post first-post">            
+                <div class="post-number">#36765</div>
+                <h2 class="thread-topic">Не работает скрипт</h2>                
+
+                <p>Добрый день!</p>
+
+                <p>Никак не получается составить регулярное выражение.</p>
+
+                <p>Есть html: &lt;img alt=&quot;&quot; src=&quot;images/ads_200x200.png&quot; style=&quot;width: 250px; height: 250px; float:left; border-width: 1px; border-style: solid&quot;&gt; <br />
+                нужно найти все картинки с именем ads_200x200.png, удалить все атрибуты кроме src, и оставить float, если он указан в стилях. </p>
+
+                <p>Т.е. если флоат не указан, то результат должен быть такой:<br />
+                &lt;img src=&quot;images/ads_200x200.png&quot;&gt; </p>
+                <div class="hide-text">
+                <p>А если указан, то такой:<br />
+                &lt;img src=&quot;images/ads_200x200.png&quot; style=&quot;float:left&quot;&gt; </p>
+
+                <p>Пытаюсь разобраться, но ничего не выходит :( </p>
+
+                <p>Спасибо!</p>
+                </div>
+            </div>
+
+            <div class="b-post-info-line">
+                Пропущено 13 комментариев
+            </div>
+
+            <div class="b-post-last-comments">
+                <div class="b-comment">
+                    <div class="post-number">#36871</div>
+                    <p>XPath бы вам помог.</p>
+                </div>
+
+                <div class="b-comment">
+                    <div class="post-number">#36598</div>
+                    <p>если вы у вас есть проблема и вы пытаетесь решить ее с помощью регулярок - у вас две проблемы. 
+                        Регулярки помогают при разборе html только в ограниченном количестве простых случаев - 
+                        когда достаточно работать с разметкой только как с текстом… </p>
+                        <div class="hide-text"><p> В вашем случае необходимо 
+                        скормить код xml парсеру и преобразовывать уже получившийся документ (с помощью xslt, 
+                        например). Все остальное - извращение.</p></div>
+                </div>
+
+                <div class="b-comment">
+                    <div class="post-number">#36601</div>
+                    <p>ужастно, разбор HTML на таком уровне однозначно и просто решается с помощью XML парсеров и,
+                     в дальнейшем, инструметов работы с XML.</p>
+                </div>
+            </div>
+
+            <div class="b-post-actions clearfix">
+                <a href="" class="button-action button-reply">Добавить комментарий</a>
+                <a href="" class="button-action button-show-thread">Перейти в тред</a>
             </div>
         </div>
     </div>

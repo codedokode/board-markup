@@ -8,6 +8,7 @@ pre { padding: 6px 4px; }
 pre code { padding: 0; }
 .clearfix:after, .row:after, .row-buttons:after { content: ""; display: table; clear: both; }
 
+.mb-0 { margin-bottom: 0; }
 .l-header { height: 78px; background: #f0f0f0; padding: 1px 0; border-bottom: 1px solid #999;
     background: #333 url("i/bg-1.jpg") repeat 50% 50%; position: relative; z-index: 0; }
     .l-header .overlay { background: rgba(0, 0, 0, 0.4); z-index: -1; position: absolute;
@@ -63,8 +64,11 @@ a.button-action { line-height: 1.5;  text-decoration: none; color: #000; }
 
 
 .b-add-thread-form { padding-left: 120px; padding-top: 30px;  padding-bottom: 30px; }
-
+.b-in-thread-form { padding-left: 0; }
+.b-in-thread-form .row-label { text-align: right; width: 105px; }
+.b-in-thread-form h2 { float: none; }
 .row { margin: 0 0 8px; }
+.row-header { margin-top: 40px; }
 .row-label { float: left; margin-left: -120px; width: 110px; margin-top: 4px; }
 .row-hint { font-size: 12px; line-height: 1.2; text-align: right; color: #999; }
 .row-comment { float: right; width: 140px; margin-right: -150px; font-size: 12px; 
@@ -80,6 +84,7 @@ a.button-action { line-height: 1.5;  text-decoration: none; color: #000; }
 .input-wide, .textarea-wide { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; 
     box-sizing: border-box; width: 100%; display: block; }
 .textarea-large { min-height: 42em; } 
+.textarea-medium { min-height: 30em; }
 .b-big-form textarea { font: 14px/1.2 monospace; padding: 3px; 
     border: 1px solid #999; margin: 0; position: relative; }
 
